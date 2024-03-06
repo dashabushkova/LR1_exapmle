@@ -1,5 +1,7 @@
 #pragma once
 
 #include <vector>
+using namespace std;
 
-std::pair<int, int> countAndSum(const std::vector<int>& array);
+pair<int, float> firstElement(vector<float>& array);
+void printErrors();

@@ -4,9 +4,11 @@
 #include <lib/lr1.h>
 
 int main() {
-    std::vector<int> arr = {10, 14, 15, 20, 21, 25, 30};
-    std::pair<int, int> result = countAndSum(arr);
-    std::cout << "Number of elements that are divisible by 5 and not divisible by 7: " << result.first << std::endl;
-    std::cout << "Sum: " << result.second << std::endl;
+    vector<float> arr = { 97.5, 100.00000001, 100.000001, 100.000004, 123, 234.98716 };
+    
+    pair<int, float> result = firstElement(arr);
+    printErrors();
+    
+    cin.get();
     return 0;
 }
